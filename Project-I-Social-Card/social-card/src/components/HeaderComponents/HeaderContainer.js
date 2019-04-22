@@ -1,15 +1,15 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
+import ImageThumbnail from "./ImageThumbnail";
+import HeaderTitle from "./HeaderTitle";
 
-function HeaderComponents() {
+function HeaderContainer()  {
   return (
-<div className="header-container">
-testing if this works.
-</div>
+    <div className="header-container">
+      <ImageThumbnail />
+      <HeaderTitle />
+    </div>
   );
-}
+};
 
-
-
-
-export default HeaderComponents;
+export default HeaderContainer;

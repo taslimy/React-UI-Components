@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-// Import HeaderComponents 
-import HeaderComponents from './components/HeaderComponents/HeaderContainer.js';
-
+// Import my Components 
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
 
 const App = () => {
   return (
-    <div className="App">
-    <HeaderComponents />
+    <div className="card-container">
+      <HeaderContainer />
     </div>
   );
 };
