@@ -1,0 +1,18 @@
+.calc-display {
+  width: 456px;
+  height: 128px;
+  background: hsl(0, 0%, 7%);
+  border-top: 1px solid silver;
+  border-right: 1px solid silver;
+  border-right: 1px solid silver;
+  border-bottom: none;
+  color: #fff;
+  font-size: 50px;
+  text-align: end;
+}
+
+.calc-display::placeholder {
+  color: #fff;
+  text-align: end;
+  padding-right: 5px;
+}
