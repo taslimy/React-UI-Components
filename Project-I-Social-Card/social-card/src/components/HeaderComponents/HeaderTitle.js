@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderContent from "./HeaderContent";
 import moment from "moment";
-import "./Header.css";
+import "./Header.scss";
 
 function HeaderTitle() {
   return (
