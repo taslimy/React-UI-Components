@@ -1,0 +1,76 @@
+.buttons {
+  width: 456px;
+  display: flex;
+  height: 465px;
+  border: 1px solid silver;
+}
+
+.buttons .number-buttons {
+  display: flex;
+  flex-flow: column;
+  width: 370px;
+  height: 465px;
+  border: 1px solid silver;
+}
+
+.number-buttons .toprow {
+  align-self: center;
+  font-size: 4rem;
+  height: 95px;
+  width: 338px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid silver;
+  border-left: none;
+  border-bottom: 1px solid silver;
+}
+
+.number-buttons .row {
+  display: flex;
+  height: 96px;
+}
+
+.row .small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  border-right: 1px solid silver;
+  border-left: none;
+  border-bottom: 1px solid silver;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.number-buttons .botrow {
+  height: 95px;
+  width: 338px;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-right: 1px solid silver;
+}
+
+.buttons .action-buttons {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 467px;
+  background-color: hsl(349, 100%, 31%);
+  color: hsl(0, 0%, 100%);
+}
+
+.buttons .action-buttons .action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5rem;
+  border-right: 1px solid silver;
+  border-left: none;
+  border-bottom: 1px solid silver;
+  height: 100px;
+}
